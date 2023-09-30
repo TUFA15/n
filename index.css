@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-image: url('wp6001987-pc-gaming-hd-wallpapers.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #ffffff; 
+}
+
+.work-one{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+padding: auto;
+color: plum;
+}
+
+.work-two h1{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10%;
+padding: 10%;
+background-color: transparent;
+color: black;
+}
+
+.work-two{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+width: 90%;
+margin: auto;
+padding: auto;
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: Black;
+    color: plum;
+    position: fixed;
+    left: -250px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: plum;
+    display: block;
+    transition: 0.3s;
+}
+.content {
+    margin: auto;
+    padding: 20px;
+    align-items: left;
+    justify-content: left;
+    display: flex;
+}
+.menu-btn {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    margin-left: 20px;
+    align-items: right;
+    color: plum;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamers Land</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <a href="#">LIBRARY</a>
+        <a href="#">UNREAL ENGINE</a>
+        <a href="#">DISCORD</a>
+        <a href="#">FREE FOR THE WEEK</a>
+    </div>
+    
+    <div class="content" id="content">
+        <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+    </div>
+    <div class="work-one">
+        <h1>GAMERSLAND</h1>
+    </div>
+
+    <div class="work-two">
+    <h1>
+        <strong>  Welcome to the Ultimate Gaming Haven<br>
+            🎮 Get ready to embark on a thrilling journey into the world of gaming, where adventure knows no bounds and victory is just a click <br>
+
+            At GAMERSLAND, we've crafted a space dedicated to all things gaming. Whether you're a seasoned pro, a casual player, or just starting your gaming odyssey, you're in for an unforgettable ride. <br>
+            
+            🌟 Discover a World of Games: From pulse-pounding shooters to epic RPGs, we've curated a vast library of titles across every genre. Dive into our extensive collection and find the perfect game to suit your style. <br>
+            
+            👥 Connect with Fellow Gamers: Join our vibrant community of gamers from around the globe. Exchange strategies, share tips, and forge lasting friendships with like-minded enthusiasts. Together, we'll conquer virtual worlds and create unforgettable memories. <br>
+            
+            🏆 Compete and Conquer: Test your skills in thrilling competitions and tournaments. Rise through the ranks, claim victory, and earn your place among the gaming elite. <br>
+            
+            🛒 Exclusive Deals and Offers: Score incredible discounts on the hottest games, hardware, and accessories. Our partnerships with top industry brands mean you get the best bang for your buck. <br>
+            
+            🔥 Stay Updated with the Latest News: Stay in the loop with breaking news, game releases, updates, and insider insights from the gaming universe. We're your go-to source for all things gaming-related. <br>
+            
+            🤝 Your Feedback Matters: We're committed to making your gaming experience exceptional. Share your thoughts, suggestions, and ideas with us. Together, we'll shape the future of gaming. <br>
+            
+            🎉 Let the Games Begin! Dive in, explore, and unleash your inner gamer. The adventure starts now! <br>
+            
+            Welcome aboard, and may your gaming journey be filled with excitement, camaraderie, and unforgettable moments. <br>
+            
+            Cheers to endless hours of gaming fun! <br>
+            
+            GAMERSLAND Team <br>
+            </strong>>
+    </h1>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            var content = document.getElementById('content');
+            if (sidebar.style.left === '0px') {
+                sidebar.style.left = '-250px';
+                content.style.marginLeft = '0';
+            } else {
+                sidebar.style.left = '0';
+                content.style.marginLeft = '250px';
+            }
+        }
+    </script>
+</body>
+</html>
+
